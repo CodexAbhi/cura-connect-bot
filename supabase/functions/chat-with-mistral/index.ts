@@ -75,7 +75,7 @@ IMPORTANT: Base your responses on the conversation history provided to maintain 
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'mistral-large-latest',
+        model: 'open-mistral-7b', // Using free tier model instead of mistral-large-latest
         messages: messages,
         max_tokens: 1000,
         temperature: 0.7,
